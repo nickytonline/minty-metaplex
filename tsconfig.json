@@ -20,7 +20,8 @@
       "@components": ["components/index"],
       "@components/*": ["components/*"],
       "@utilties/*": ["utilities/*"]
-    }
+    },
+    "incremental": true
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules", "myepicproject"],
