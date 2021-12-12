@@ -70,8 +70,12 @@ const Home: NextPage = () => {
       });
     }
 
-    phantomWalletCheck();
+    window.addEventListener('load', phantomWalletCheck);
     document.querySelector('.Toastify')?.setAttribute('aria-live', 'polite');
+
+    return () => {
+      window.removeEventListener('load', phantomWalletCheck);
+    };
   }, []);
 
   if (isLoading) {
