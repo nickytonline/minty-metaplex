@@ -1,0 +1,19 @@
+{
+  "name": "SesameStreet",
+  "symbol": "",
+  "image": "0.png",
+  "properties": {
+    "files": [
+      {
+        "uri": "0.png",
+        "type": "image/png"
+      }
+    ],
+    "creators": [
+      {
+        "address": "AuDnQDvvxycLf2axMoK31vLrfrkGam2jNMdhR8FcBnct",
+        "share": 100
+      }
+    ]
+  }
+}

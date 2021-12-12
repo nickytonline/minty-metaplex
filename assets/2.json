@@ -1,0 +1,19 @@
+{
+  "name": "Mitten",
+  "symbol": "",
+  "image": "2.png",
+  "properties": {
+    "files": [
+      {
+        "uri": "2.png",
+        "type": "image/png"
+      }
+    ],
+    "creators": [
+      {
+        "address": "AuDnQDvvxycLf2axMoK31vLrfrkGam2jNMdhR8FcBnct",
+        "share": 100
+      }
+    ]
+  }
+}
