@@ -70,7 +70,13 @@ const Home: NextPage = () => {
       });
     }
 
-    window.addEventListener('load', phantomWalletCheck);
+    // It seems redundant to do this, but on mobile (iOS at least), it seems to fire the load event before getting
+    // to the useEffect. This check guarantees that on mobile it will flash that Phantom is not supported... yet 😎
+    if (document.readyState === 'complete') {
+      phantomWalletCheck();
+    } else {
+      window.addEventListener('load', phantomWalletCheck);
+    }
     document.querySelector('.Toastify')?.setAttribute('aria-live', 'polite');
 
     return () => {
