@@ -5,6 +5,8 @@ instructions. Thanks Buildspace!
 
 <center>
 
+![Minty Metaplex asking to connect wallet](minty-metaplex-wallet.png)
+
 ![Minty Metaplex NFT minting Buildspace project](mintymetaplex-screenshot.png)
 
 </center>
